@@ -21,18 +21,20 @@ class HomePage extends Component{
                        ReactJs Developer | MERN Enthusiast
                        </h1>
                        
-                       <hr/>
+                       <hr style={{ borderTop:'1px solid' }}/>
                        <p> HTML | CSS | Bootstrap | NodeJs| ReactJs | MySql | Express</p>
                        
                        <div className="social-links">
                        
-                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"/></a>
+                       <a href="https://www.linkedin.com/in/adit-alware-756652176/"  rel="noopener noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"/></a>
                  
-                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-square" aria-hidden="true"/></a>
+                       <a href="https://github.com/aditalware"  rel="noopener noreferrer"><i className="fa fa-github-square" aria-hidden="true"/></a>
 
-                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-square" aria-hidden="true"/></a>
+                       <a href="http://www.facebook.com/aditalware"  rel="noopener noreferrer"><i className="fa fa-facebook-square" aria-hidden="true"/></a>
 
-                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" aria-hidden="true"/></a>
+                       <a href="https://www.instagram.com/_adit_alware.world_/" rel="noopener noreferrer"><i className="fa fa-instagram" aria-hidden="true"/></a>
+  
+                       <a href="https://auth.geeksforgeeks.org/user/alwareadit/profile" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"/></a>
 
                   </div>
                        </div>
