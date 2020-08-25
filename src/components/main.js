@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
-import {Switch,Route} from 'react-router-dom';
+import {Switch,Route,Redirect} from 'react-router-dom';
 import HomePage from './Homepage';
 import Resume from './Resume';
 import Project from './Project';
 import Contact from './Contact';
+
 class Main extends Component{
 
     constructor(props)
@@ -23,7 +24,7 @@ class Main extends Component{
        <Route path="/contact" component={Contact}/>
        <Route path="/project" component={Project}/>
        <Route path="/resume" component={Resume}/>
-
+       <Redirect to="/" />
     </Switch>
          </>
       );
